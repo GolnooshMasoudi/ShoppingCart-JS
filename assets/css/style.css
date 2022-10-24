@@ -272,6 +272,9 @@ nav {
 .item-product img {
   height: 200px;
 }
+.t-product .fa-star {
+  color: rgb(204, 185, 12);
+}
 .old-p-product {
   color: rgb(87, 87, 87);
   text-decoration: line-through;
