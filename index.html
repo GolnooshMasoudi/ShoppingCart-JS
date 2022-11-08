@@ -3,7 +3,7 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>خانه</title>
+    <title>Home</title>
     <link href="assets/css/style.css" rel="stylesheet" />
     <link href="assets/fonts/fontawesome/css/all.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/fonts/my-font-icon/styles.css" />
@@ -29,9 +29,16 @@
         </div>
 
         <div class="icons">
-          <a href="" class="fav">
-            <i class="icon-heart-o icon-header"></i>
-          </a>
+          <div href="" class="favs">
+            <a href=""><i class="icon-heart-o icon-header"></i></a>
+            <span class="quantity-total-favs" id="test">0</span>
+
+            <div class="favs-list">
+              <ul class="items-fav"></ul>
+
+              <p class="empty-favs">No favorit</p>
+            </div>
+          </div>
 
           <div class="cart">
             <i class="icon-bag icon-header"></i>
@@ -115,7 +122,13 @@
                 </div>
               </div>
 
-              <button class="add-cart" class="add-cart">Add to Bag</button>
+              <button class="add-cart">Add to Bag</button>
+
+              <i
+                class="fa fa-heart add-to-fav"
+                style="font-size: 16px"
+                id="test"
+              ></i>
             </div>
 
             <div class="item-product" id="2">
@@ -185,6 +198,8 @@
                 </div>
               </div>
               <button class="add-cart">Add to Bag</button>
+
+              <i class="fa fa-heart add-to-fav" style="font-size: 16px"></i>
             </div>
           </div>
         </div>
